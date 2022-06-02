@@ -95,6 +95,7 @@ function answerButtons(event) {
 
                 }
                 // showQuestion()
+                else timer -= 10
                 questionIndex += 1
                 console.log("wait")
                 question.innerText = myQuestions[questionIndex].question;
